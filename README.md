@@ -10,25 +10,21 @@ The parent skill is a router. Agents load **at most 2–4 child skills**. Ordina
 
 ## Install (skills.sh)
 
-After this repo is public on GitHub:
-
 ```bash
-npx skills add <github-user>/java-backend-guardrails
+npx skills add 1398281322-a11y/java-backend-guardrails
 ```
 
 List what would be installed:
 
 ```bash
-npx skills add <github-user>/java-backend-guardrails --list
+npx skills add 1398281322-a11y/java-backend-guardrails --list
 ```
 
 Install one child only:
 
 ```bash
-npx skills add <github-user>/java-backend-guardrails --skill pay-notify
+npx skills add 1398281322-a11y/java-backend-guardrails --skill pay-notify
 ```
-
-Replace `<github-user>` with the GitHub login that owns the public repo.
 
 ## Layout
 
